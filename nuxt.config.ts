@@ -11,7 +11,4 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  router: {
-    base: "/pcresume/", // base: '/<repository>/'
-  },
 });
