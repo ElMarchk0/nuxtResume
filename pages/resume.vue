@@ -59,7 +59,7 @@ export default {
             ],
           },
           {
-            title: "Laborer",
+            title: "Labourer",
             company: "Walcan Seafoods",
             location: "Quadra Island, BC",
             date: "June 2012 – August 2016",
