@@ -108,28 +108,26 @@ export default {
         ],
         skills: [
           {
-            title: "HTML",
-            level: "90%",
+            title: "Frontend Web Technologies",
+            description:
+              "Bootstrap, Chakra UI, CSS, HTML, React, Tailwind CSS, Vue.js",
           },
           {
-            title: "CSS",
-            level: "90%",
+            title: "Backend Web Technologies",
+            description: "Django, Express, NestJS, Node.js",
           },
           {
-            title: "JavaScript",
-            level: "80%",
+            title: "Programming Lanuages",
+            description: "C++, C#, Java, Javascript, Python, Swift, Typescript",
           },
           {
-            title: "Vue.js",
-            level: "80%",
+            title: "Networking & Infrastructure",
+            description:
+              "AWS, Docker, Git, Linux, Virtual Machines, Windows Server",
           },
           {
-            title: "Nuxt.js",
-            level: "80%",
-          },
-          {
-            title: "Tailwind CSS",
-            level: "80%",
+            title: "Databases",
+            description: "MongoDB, MySQL, Oracle",
           },
         ],
       },

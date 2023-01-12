@@ -1,11 +1,12 @@
 <template>
   <div>
-    <article class="p-8 sm:p-16 max-w-3xl m-auto">
+    <article class="p-8 m-auto max-w-lg">
       <h2 class="category-title">Skills</h2>
       <div class="flex flex-col p-4">
         <ul v-for="item in data" :key="item.id">
           <li>
-            {{ `${item.title} ` }}
+            <h3 class="font-bold">{{ item.title }}</h3>
+            <p class="font-italic font-light">{{ item.description }}</p>
           </li>
         </ul>
       </div>
