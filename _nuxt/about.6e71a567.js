@@ -1,0 +1,1 @@
+import{_ as o}from"./layout.ee50c05f.js";import{a as s,c as a,w as c,o as _,b as t}from"./entry.f4d6d5aa.js";const n={},r=t("h1",{class:"text-center text-4xl"},"About me",-1),f=t("p",{class:"flex p-24 justify-start"},"Hola amigos",-1);function u(l,m){const e=o;return _(),a(e,{name:"default"},{default:c(()=>[r,f]),_:1})}const p=s(n,[["render",u]]);export{p as default};
