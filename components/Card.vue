@@ -4,7 +4,9 @@
     <p class="font-semibold">{{ item.company }}</p>
     <p class="font-semibold">{{ item.location }}</p>
     <p class="font-semibold">{{ item.date }}</p>
-    <p>{{ item.description }}</p>
+    <ul v-for="subitem in item.description" :key="subitem.id">
+      <li class="font-italic from-stone-800">{{ subitem }}</li>
+    </ul>
   </div>
 </template>
 

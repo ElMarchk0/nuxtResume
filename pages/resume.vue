@@ -25,31 +25,85 @@ export default {
       history: {
         workHistory: [
           {
-            title: "Frontend Developer",
-            company: "Freelance",
-            location: "Remote",
-            date: "2021 - Present",
-            description:
-              "I am currently working on a freelance project for a client in the UK. I am building a website for a local business using Nuxt.js, Tailwind CSS, and Netlify CMS. I am also using Netlify to host the site and deploy it automatically when changes are made to the CMS.",
+            title: "Software Development Co-op (May",
+            company: "Cognito Health",
+            location: "Victoria, BC",
+            date: "May 2022 - August 2022",
+            description: [
+              "Built and refactored UI components for production applications using React Typescript and Chakra UI",
+              "Built and refactored testing suites for production React applications using Jest and the React testing library",
+              "Built and refactored and maintained REST APIs using TypeScript, NestJs, TypeOrm and MySql",
+              "Implemented google analytics for a production full-stack application",
+              "Configured third party applications such as Auth0, Calendly, Google Analytics and Stripe for a full-stack production application",
+              "Utilized git and GitHub for version control and project management within a team",
+            ],
           },
           {
-            title: "Frontend Developer",
-            company: "Freelance",
-            location: "Remote",
-            date: "2020 - 2021",
-            description:
-              "I am currently working on a freelance project for a client in the UK. I am building a website for a local business using Nuxt.js, Tailwind CSS, and Netlify CMS. I am also using Netlify to host the site and deploy it automatically when changes are made to the CMS.",
+            title: "Carpentry Apprentice",
+            company: "Campbell Construction",
+            location: "Victoria, BC",
+            date: "February 2019 - August 2021",
+            description: [
+              "Built concrete forms according to engineered plans and federal building standards",
+              "Laid out grid-lines and benchmarks according to engineered plans",
+            ],
+          },
+          {
+            title: "Carpentry Apprentice",
+            company: "KD Johnson",
+            location: "Victoria, BC",
+            date: "June 2017 – August 2018",
+            description: [
+              "Collaborated with a large team and a large number of workers from other companies and different trades",
+              "Built lumber frames and concrete forms according to engineered plans and federal building standards",
+            ],
+          },
+          {
+            title: "Laborer",
+            company: "Walcan Seafoods",
+            location: "Quadra Island, BC",
+            date: "June 2012 – August 2016",
+            description: [
+              "Worked with a large crew of up to 50 people",
+              "Supervised Crew of up to 15 people",
+            ],
           },
         ],
 
         educationHistory: [
           {
-            title: "Information Technology",
-            school: "University of the People",
-            location: "Remote",
-            date: "2020 - 2022",
-            description:
-              "Information and techonolgy diploma, with a focus on web development.",
+            title: "Information and Computer Systems Diploma",
+            school: "Camosun College",
+            location: "Victoria, BC",
+            date: "September 2020 - May 2022",
+            description: [
+              "Learned object orientated programming, abstract data structures and algorithm concepts with Java",
+              "Built and maintained virtual machines and servers using Linux and Windows operating systems",
+              "Wrote bash scripts and pythons scripts to maintain and automate system process",
+              "Built a variety of frontend web pages and applications using CSS, HTML, JavaScript",
+              "Learned applied computer science mathematics",
+              "Learned applied database concepts and theory, built and maintained relational databases",
+            ],
+          },
+          {
+            title: "Carpentry Level One",
+            school: "Camosun College",
+            location: "Victoria, BC",
+            date: "January 2019 - February 2019",
+            description: [
+              "Learned applied construction and building techniques",
+              "Learned how to interpret provincial and federal building codes",
+            ],
+          },
+          {
+            title: "Electrical Trades Foundation",
+            school: "Camosun College",
+            location: "Victoria, BC",
+            date: "November 2016 – May 2017",
+            description: [
+              "Assembled electrical circuits and motors",
+              "Learned how to interpret provincial and federal building codes",
+            ],
           },
         ],
         skills: [
