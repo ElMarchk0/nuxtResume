@@ -21,7 +21,4 @@ export default {
 };
 
 type Theme = "light" | "dark";
-const setColorTheme = (newTheme: Theme) => {
-  useColorMode().preference = newTheme;
-};
 </script>
