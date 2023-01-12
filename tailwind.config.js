@@ -10,10 +10,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        themeBackground: "var(--background)",
-        themeText: `var(--text)`,
-      },
+      colors: {},
     },
   },
   darkMode: "class",

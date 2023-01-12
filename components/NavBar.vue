@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="container px-8 py-8 mx-auto md:flex md:justify-between md:items-center"
+    class="fixed w-screen bg-white dark:bg-slate-900 px-8 py-8 mx-auto md:flex md:justify-between md:items-center"
   >
     <div class="flex items-center justify-between">
       <NuxtLink to="/" class="no-underline hover:text-blue-400">
@@ -35,12 +35,21 @@
       <li class="link">
         <NuxtLink to="/resume">Resume</NuxtLink>
       </li>
+      <li>
+        <Toggle :darkModeHandler="darkModeHandler" />
+      </li>
     </ul>
   </nav>
 </template>
 
 <script>
 export default {
+  props: {
+    darkModeHandler: {
+      type: Function,
+      required: true,
+    },
+  },
   data() {
     return {
       showMenu: false,
