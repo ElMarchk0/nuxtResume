@@ -4,7 +4,10 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: "",
   },
-  css: ["~/assets/css/main.css"],
+  css: [
+    "~/assets/css/main.css",
+    "@fortawesome/fontawesome-svg-core/styles.css",
+  ],
   postcss: {
     plugins: {
       tailwindcss: {},

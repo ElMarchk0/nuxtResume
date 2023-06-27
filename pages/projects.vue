@@ -18,24 +18,19 @@ export default {
       projects: [
         {
           title: "Beer API",
-          desc: "An SPA and API the searches for craft beer brewed in Victoria, BC",
-          link: "#",
-          repo: "#",
-          img: "https://imgs.search.brave.com/3e4Uc7wYfNVqQ3DiU4yAM-QBdQMWimfTNWa6irVrZfA/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9saDMu/Z29vZ2xldXNlcmNv/bnRlbnQuY29tL3lF/RHRqLVY1eFMzS0VS/NGZsZU9MVGVDOGVG/TGN1Q2FsbWIxZ3VT/LWVpMnpRS0Ntbkxx/MXBLdmktY2R3MDRD/aHozaE9u",
+          desc: "An API the searches for craft beer brewed in Victoria, BC. Built with Nuxt.js, Tailwind, and MongoDB.",
+          link: "https://beer-api-v2.vercel.app/",
+          repo: "https://github.com/ElMarchk0/beerApiV2",
         },
         {
-          title: "Beer API",
-          desc: "An SPA and API the searches for craft beer brewed in Victoria, BC",
-          link: "#",
-          repo: "#",
-          img: "https://imgs.search.brave.com/3e4Uc7wYfNVqQ3DiU4yAM-QBdQMWimfTNWa6irVrZfA/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9saDMu/Z29vZ2xldXNlcmNv/bnRlbnQuY29tL3lF/RHRqLVY1eFMzS0VS/NGZsZU9MVGVDOGVG/TGN1Q2FsbWIxZ3VT/LWVpMnpRS0Ntbkxx/MXBLdmktY2R3MDRD/aHozaE9u",
+          title: "Indigenous Perspectives Society Capstone Project",
+          desc: "A data collection and reporting web application built for the Indigenous Perspectives Society(IPS) as a part of my diploma at Camosun College. My role in the team was built the API and implement hosting on a local server. The API is built with Django and MySQL",
         },
         {
-          title: "Beer API",
-          desc: "An SPA and API the searches for craft beer brewed in Victoria, BC",
+          title: "Rick Roller",
+          desc: "A simple webpage built with vanilla js and css",
           link: "#",
-          repo: "#",
-          img: "https://imgs.search.brave.com/3e4Uc7wYfNVqQ3DiU4yAM-QBdQMWimfTNWa6irVrZfA/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9saDMu/Z29vZ2xldXNlcmNv/bnRlbnQuY29tL3lF/RHRqLVY1eFMzS0VS/NGZsZU9MVGVDOGVG/TGN1Q2FsbWIxZ3VT/LWVpMnpRS0Ntbkxx/MXBLdmktY2R3MDRD/aHozaE9u",
+          repo: "https://github.com/ElMarchk0/beerApiV2",
         },
       ],
     };
