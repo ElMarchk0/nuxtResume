@@ -30,7 +30,7 @@ export default {
       history: {
         workHistory: [
           {
-            title: "Software Development Co-op (May",
+            title: "Software Development Co-op",
             company: "Cognito Health",
             location: "Victoria, BC",
             date: "May 2022 - August 2022",
