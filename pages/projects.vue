@@ -18,7 +18,7 @@ export default {
       projects: [
         {
           title: "The Victoria Craft Beer API",
-          desc: "An API the searches for craft beer brewed in Victoria, BC. Built with Nuxt.js, Tailwind, and MongoDB.",
+          desc: "An API that searches for craft beer brewed in Victoria, BC. Built with Nuxt.js, Tailwind, and MongoDB.",
           link: "https://beer-api-v2.vercel.app/",
           repo: "https://github.com/ElMarchk0/beerApiV2",
         },
@@ -28,7 +28,7 @@ export default {
         },
         {
           title: "Rick Roller",
-          desc: "A tribute to the Rickroll. A simple webpage built with vanilla JavaScript and vanilla CSS. The design concept is based on CD jewel cases from the 1980s. ",
+          desc: "A tribute to the Rickroll. A simple webpage built with vanilla HTML and vanilla CSS. The design concept is based on CD jewel cases from the 1980s. ",
           link: "https://rickroller-gy7y48eld-elmarchk0.vercel.app/",
           repo: "https://github.com/ElMarchk0/rickroller",
         },
