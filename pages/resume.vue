@@ -1,9 +1,14 @@
 <template>
   <NuxtLayout name="default">
-    <h1 class="text-center text-4xl">Resume</h1>
+    <h1 class="text-center text-4xl my-4">Resume</h1>
+    <a
+      class="flex justify-center text-xl hover:text-blue-400"
+      href="./resume.pdf"
+      >Download a PDF of My Resume</a
+    >
 
     <div
-      class="flex flex-wrap lg:justify-center flex-cols-3 m-auto md:justify-start p-16"
+      class="flex flex-wrap lg:justify-center flex-cols-3 m-auto md:justify-start px-16"
     >
       <History title="Work" :data="history.workHistory" />
       <History title="Education" :data="history.educationHistory" />
@@ -110,7 +115,7 @@ export default {
           {
             title: "Frontend Web Technologies",
             description:
-              "Bootstrap, Chakra UI, CSS, HTML, React, Tailwind CSS, Vue.js",
+              "Bootstrap, Chakra UI, CSS, HTML, React, Tailwindcss, Vue.js",
           },
           {
             title: "Backend Web Technologies",

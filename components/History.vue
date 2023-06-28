@@ -1,6 +1,8 @@
 <template>
   <div>
-    <article class="p-8 m-auto max-w-lg">
+    <article
+      class="p-8 max-w-lg border-2 rounded-lg m-2 dark:border-cyan-300 light:slate-900"
+    >
       <h2 class="category-title">{{ title }}</h2>
       <ul v-for="item in data" :key="item.id">
         <Card :item="item" />

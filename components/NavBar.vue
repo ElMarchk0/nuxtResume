@@ -28,14 +28,26 @@
       :class="showMenu ? 'flex' : 'hidden'"
       class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
     >
-      <NuxtLink to="/" class="no-underline hover:text-blue-400">
+      <NuxtLink
+        active-class="border-2 rounded-lg dark:border-cyan-300 light:slate-900 p-2"
+        to="/"
+        class="no-underline hover:text-blue-400"
+      >
         About Me
       </NuxtLink>
       <li class="link">
-        <NuxtLink to="/projects">Projects</NuxtLink>
+        <NuxtLink
+          active-class="border-2 rounded-lg dark:border-cyan-300 light:slate-900 p-2"
+          to="/projects"
+          >Projects</NuxtLink
+        >
       </li>
       <li class="link">
-        <NuxtLink to="/resume">Resume</NuxtLink>
+        <NuxtLink
+          active-class="border-2 rounded-lg dark:border-cyan-300 light:slate-900 p-2"
+          to="/resume"
+          >Resume</NuxtLink
+        >
       </li>
       <li class="link">
         <font-awesome-icon icon="fa-brands fa-github-square" />

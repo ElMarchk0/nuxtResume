@@ -1,13 +1,12 @@
 <template>
   <NuxtLayout name="default">
     <div class="flex place-items-center flex-col md:justify-start">
-      <h1 class="text-center text-4xl">About Me</h1>
       <img
         src="../assets/imgs/portrait.jpg"
         alt="project image"
-        class="w-60 h-60 m-4 rounded-full"
+        class="w-80 h-80 m-4 rounded-full border-2 border-cyan-300"
       />
-      <p class="text-center lg:px-64 lg:py-16 md:px-8 sm:p-2">
+      <p class="text-center lg:mx-64 lg:px-4 lg:py-16 md:px-8 sm:p-2">
         I am an aspiring software developer/IT specialist based in Victoria,
         British Columbia. I am on the verge of completing a Diploma of
         Information and Computer Systems at Camosun College. I am most
