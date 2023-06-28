@@ -17,7 +17,7 @@ export default {
     return {
       projects: [
         {
-          title: "Beer API",
+          title: "The Victoria Craft Beer API",
           desc: "An API the searches for craft beer brewed in Victoria, BC. Built with Nuxt.js, Tailwind, and MongoDB.",
           link: "https://beer-api-v2.vercel.app/",
           repo: "https://github.com/ElMarchk0/beerApiV2",
