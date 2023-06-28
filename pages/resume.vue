@@ -3,12 +3,14 @@
     <h1 class="text-center text-4xl my-4">Resume</h1>
     <a
       class="flex justify-center text-xl hover:text-blue-400"
-      href="./resume.pdf"
+      download="Resume_Peter_Charlesworth.pdf"
+      href="/Resume_Peter_Charlesworth.pdf"
+      target="_blank"
       >Download a PDF of My Resume</a
     >
 
     <div
-      class="flex flex-wrap lg:justify-center flex-cols-3 m-auto md:justify-start px-16"
+      class="flex flex-wrap lg:justify-center flex-cols-3 m-4 md:justify-start px-16"
     >
       <History title="Work" :data="history.workHistory" />
       <History title="Education" :data="history.educationHistory" />
@@ -35,12 +37,13 @@ export default {
             location: "Victoria, BC",
             date: "May 2022 - August 2022",
             description: [
-              "Built and refactored UI components for production applications using React Typescript and Chakra UI",
+              "Built and refactored UI components for production applications using React Typescript and ChakraUI",
               "Built and refactored testing suites for production React applications using Jest and the React testing library",
               "Built and refactored and maintained REST APIs using TypeScript, NestJs, TypeOrm and MySql",
               "Implemented google analytics for a production full-stack application",
               "Configured third party applications such as Auth0, Calendly, Google Analytics and Stripe for a full-stack production application",
               "Utilized git and GitHub for version control and project management within a team",
+              "Performed code reviews and pull requests for team members",
             ],
           },
           {
