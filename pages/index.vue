@@ -6,7 +6,7 @@
         alt="project image"
         class="w-80 h-80 m-4 rounded-full border-2 border-cyan-300"
       />
-      <p class="text-center lg:mx-64 lg:px-4 lg:py-16 md:px-8 sm:p-2">
+      <p class="text-center text-xl lg:mx-64 lg:px-4 lg:py-16 md:px-8 sm:p-2">
         I am an aspiring software developer/IT specialist based in Victoria,
         British Columbia. I am on the verge of completing a Diploma of
         Information and Computer Systems at Camosun College. I am most
