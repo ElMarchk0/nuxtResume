@@ -32,6 +32,17 @@ export default {
       history: {
         workHistory: [
           {
+            title: "Camosun Capstone Project",
+            company: "Indigenous Perspectives Society",
+            location: "Victoria, BC",
+            date: "May 2023 - August 2023",
+            description: [
+              "Worked with IPS members develop a data schema to track project data",
+              "Served as lead developer for the backend API that was built with Django and MySQL",
+              "Implemented hosting solutions for the API and the frontend web application",
+            ],
+          },
+          {
             title: "Software Development Co-op",
             company: "Cognito Health",
             location: "Victoria, BC",
