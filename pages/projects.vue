@@ -25,6 +25,7 @@ export default {
         {
           title: "Indigenous Perspectives Society Capstone Project",
           desc: "A Trello data collection and reporting web application built for the Indigenous Perspectives Society(IPS) as a part of my diploma at Camosun College. My role in the team was built the API and implement hosting on a local server. The API is built with Django and MySQL",
+          link: "https://capstone.camosun.bc.ca/cosc/2023/teams/teamm",
         },
         {
           title: "Rick Roller",
