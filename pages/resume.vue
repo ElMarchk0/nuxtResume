@@ -32,7 +32,16 @@ export default {
       history: {
         workHistory: [
           {
-            title: "Camosun Capstone Project",
+            title: "Product Data Administrator",
+            company: "A",
+            location: "Victoria, BC",
+            date: "September 2023 - Current",
+            description: [
+              "Developed Python scripts to clean, analyze, and process product data provided by vendors and suppliers",
+            ],
+          },
+          {
+            title: "API Developer",
             company: "Indigenous Perspectives Society",
             location: "Victoria, BC",
             date: "May 2023 - August 2023",
