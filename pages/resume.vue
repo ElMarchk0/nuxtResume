@@ -1,13 +1,6 @@
 <template>
   <NuxtLayout name="default">
     <h1 class="text-center text-4xl my-4">Resume</h1>
-    <a
-      class="flex justify-center text-xl hover:text-blue-400"
-      download="Resume_Peter_Charlesworth.pdf"
-      href="/Resume_Peter_Charlesworth.pdf"
-      target="_blank"
-      >Download a PDF of My Resume</a
-    >
 
     <div
       class="flex flex-wrap lg:justify-center flex-cols-3 m-4 md:justify-start px-16"
