@@ -33,7 +33,7 @@ export default {
         workHistory: [
           {
             title: "Product Data Administrator",
-            company: "A",
+            company: "Andrew Sheret LTD",
             location: "Victoria, BC",
             date: "September 2023 - Current",
             description: [
