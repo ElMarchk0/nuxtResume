@@ -8,7 +8,7 @@
       />
       <p class="text-center text-xl lg:mx-64 lg:px-4 lg:py-16 md:px-8 sm:p-2">
         I am an aspiring software developer/IT specialist based in Victoria,
-        British Columbia. I recently graduated with a Diploma of Information and
+        British Columbia. In 2023, graduated with a Diploma of Information and
         Computer Systems at Camosun College. I am most interested in full stack
         development and infrastructure. My
         <span class="hover:text-blue-400"><a href="/resume">skills</a></span>
