@@ -2,7 +2,7 @@
   <NuxtLayout name="default">
     <div class="flex place-items-center flex-col md:justify-start">
       <img
-        src="../assets/imgs/portrait.jpg"
+        src="../assets/imgs/portrait.jpeg"
         alt="project image"
         class="w-80 h-80 m-4 rounded-full border-2 border-cyan-300"
       />
